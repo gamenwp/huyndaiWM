@@ -1,5 +1,5 @@
 <template>
-<section class="models" id="models">
+<section class="models" id="models" name="models">
 <div class="container">
     <div class="models_inner">
                     <div class="main-title">Models</div>

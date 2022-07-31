@@ -1,5 +1,5 @@
 <template>
-<section class="form" id="form">
+<section class="form" id="form" name="form">
     <div class="container">
         <div class="form_inner">
             <div class="title">GET IN TOUCH</div>
@@ -30,7 +30,7 @@ Kharkiv, Ukraine</div>
                 <div class="form_cont">
                     <form action="">
                         <input class="name" type="name" placeholder="Name">
-                        <input class="telephone" type="tel" placeholder="Your Phone">
+                        <input class="telephone" id="footTel" type="tel" placeholder="Your Phone">
                         <input class="Message" type="text" placeholder="Your Message">
 <input class="form_button" type="button" value="SEND MESSAGE">
                     </form>
