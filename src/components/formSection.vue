@@ -28,11 +28,11 @@ Kharkiv, Ukraine</div>
                 </div>
 
                 <div class="form_cont">
-                    <form action="">
-                        <input class="name" type="name" placeholder="Name">
-                        <input class="telephone" id="footTel" type="tel" placeholder="Your Phone">
-                        <input class="Message" type="text" placeholder="Your Message">
-<input class="form_button" type="button" value="SEND MESSAGE">
+                    <form action="" onsubmit="return false">
+                        <input class="name" type="name" placeholder="Name" required>
+                        <input class="telephone" id="footTel" type="tel" placeholder="Your Phone" required>
+                        <input class="Message" type="text" placeholder="Your Message" required>
+<input class="form_button" type="submit" value="SEND MESSAGE">
                     </form>
                 </div>
             </div>
@@ -40,3 +40,5 @@ Kharkiv, Ukraine</div>
     </div>
 </section>
 </template>
+
+
